@@ -5,7 +5,7 @@
   height: 30em;
   background-color: #eee;
   border-radius: 50%;
-  border: 2px solid black; }
+  border: 1px solid black; }
   .clock__center {
     position: relative;
     top: 50%;
@@ -17,7 +17,6 @@
     border-radius: 50%; }
   .clock__seconds {
     position: absolute;
-    border: 2px solid black;
     border-radius: 50%;
     transform-origin: 50% 100%;
     -webkit-animation: rotate 60s infinite linear;
@@ -29,7 +28,6 @@
     background: #4b9aaa; }
   .clock__minutes {
     position: absolute;
-    border: 2px solid black;
     border-radius: 50%;
     transform-origin: 50% 100%;
     -webkit-animation: rotate 3600s infinite linear;
